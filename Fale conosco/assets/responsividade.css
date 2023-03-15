@@ -67,6 +67,10 @@
     .corpo1 , .corpo2 , .corpo3 , .corpo4 , .concordar , .botão {
         margin-top: 0.2em;
     }
+
+    .concordar{
+        font-size: 0.8em;
+    }
     
     .design {
         background-color: #0e9549;
