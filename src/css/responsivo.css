@@ -274,7 +274,7 @@ SEGUNDA MEDIA QUERY
     
     #footer .footer-content {
         display: flex;
-        width: 98%;
+        width: 80%;
         margin: auto;
         flex-direction: row;
     }
