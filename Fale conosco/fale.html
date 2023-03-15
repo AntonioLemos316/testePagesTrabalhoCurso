@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="assets/responsividade.css">
+    <link rel="stylesheet" href="./assets/fale.css">
+    <link rel="shortcurt icon" href="./assets/imagens/logo-grau.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="titulo">
+            <h1>FALE CONOSCO</h1>   
+        </div>
+        <div class="corpo1">
+            <input type="text" name="nome" placeholder="NOME COMPLETO" id="nome">
+        </div>    
+        <div class="corpo2">
+            <input type="text" name="telefone" placeholder="(DDD) TELEFONE" id="telefone">
+            <input type="email" name="email" placeholder="EMAIL" id="email">
+        </div>
+        <div class="corpo3">
+            <input type="text" name="estado" placeholder="ESTADO" id="estado">
+            <input type="text" name="cidade" placeholder="CIDADE" id="cidade">
+        </div>
+        <div class="corpo4">
+            <input type="text" name="unidade" placeholder="UNIDADE" id="unidade">
+            <input type="text" name="motivo" placeholder="MOTIVO DO CONTATO" id="motivo">
+        </div>
+        <div class="concordar">
+            <p>
+               <input class="porcima" type="checkbox" name="concordo" id="concordo"> CONCORDO QUE OS DADOS PESSOAIS FORNECIDOS ACIMA SERÃO UTILIZADOS PARA ENVIO DE CONTEÚDO INFORMATIVO, ANALÍTICO E PUBLICITÁRIO SOBRE PRODUTOS, SERVIÇOS E ASSUNTOS GERAIS, NOS TERMOS DA LEI GERAL DE PROTEÇÃO DE DADOS.
+            </p>
+        </div>
+        <div class="botão">
+            <button type="submit" onclick="Enviar()">Enviar</button>
+        </div>
+        <div class="design">
+            <p>.</p>
+        </div>
+    </form>
+    <script src="./assets/fale.js"></script>
+</body>
+</html>
